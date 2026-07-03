@@ -1,0 +1,60 @@
+{
+    "instance_name": "Rifki-7",
+    "instance_origin": "Rifki2020",
+    "benchmark_name": "Rifki2020",
+    "num_customers": 10,
+    "num_vehicles": 10,
+    "vehicle_capacity": 83,
+    "coordinates": [
+        [-126.56666715430369, 148.38472755464434],
+        [271.53243621413685, 90.35195531592349],
+        [247.22466849106596, -7.012360794480792],
+        [-20.50613095225551, -128.29547685650942],
+        [-193.46807063905132, 84.80598658010568],
+        [-252.3069676322093, 110.21457020026695],
+        [3.131202282174161, 23.343630381040985],
+        [144.49559211634894, 71.21388816091641],
+        [-307.51263055358817, -180.51100956350683],
+        [151.03850438869367, -86.81686165851531],
+        [82.9380634389883, -125.67904931988552]
+    ],
+    "demands": [0, 21, 16, 21, 27, 3, 4, 42, 12, 13, 22],
+    "service_times": [0, 93, 236, 134, 182, 238, 294, 203, 145, 223, 231],
+    "time_windows": [
+        [0, 43200],
+        [8029, 25182],
+        [6217, 30233],
+        [22094, 36491],
+        [3673, 30136],
+        [12837, 20403],
+        [9568, 40403],
+        [3905, 24376],
+        [5195, 32001],
+        [13628, 25275],
+        [2366, 30746]
+    ],
+    "depot": 0,
+    "horizon": [0.0, 43200.0],
+    "td": {
+        "model": "atf-ndcpwlf",
+        "atf_path": "Rifki-7.atf.json.gz",
+        "atf_sha256": "359d7df64cdf5150a9bdc4e22218121b7969d7c0ad352b351442809ec3f64a1a"
+    },
+    "metadata": {
+        "authors": "Florian Rascoussier (0nyr)",
+        "generated_at": "2026-07-03",
+        "generator": {
+            "name": "populate_td_rifki2020",
+            "version": "2",
+            "source": "Rifki2020 sigma=100 l=12 raw matrices + legacy TDVRPTW-benchmarks attribute harvest"
+        },
+        "raw_source": "sigma=100/n=11/cost_100_12_11_7.txt",
+        "legacy_attribute_source": "n=12/Rifki7-n=12-90a9ba33becdbc484dec9fdb3ca88c65bfa4625e.json",
+        "coordinates_method": {
+            "name": "stress-layout (deterministic SMACOF, classical-MDS init, 2D)",
+            "stress1": 0.07348352469258103,
+            "pearson_r": 0.9897729795766292
+        },
+        "notes": "Real Lyon road-network stepwise travel times (Rifki et al. 2020, sigma=100, 60 steps of 720 s) made FIFO by the arrival-time lower envelope (exact MD92 transformation); upward jumps are genuine vertical steps of the arrival-time functions. K=60 is the canonical granularity (chosen over K=120 for halved breakpoint counts in the same weight class as the other TD families; see the family README). Time windows, service times, demands, capacity and fleet size are the values generated once by Onyr's legacy TDVRPTW-benchmarks pipeline (the original [RCS20] time-window files are deliberately not used); coordinates are a deterministic stress-layout embedding of the time-averaged travel times."
+    }
+}

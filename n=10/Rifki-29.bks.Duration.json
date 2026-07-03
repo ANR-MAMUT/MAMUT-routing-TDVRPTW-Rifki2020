@@ -1,0 +1,21 @@
+{
+    "instance_name": "Rifki-29",
+    "routes": [
+        [2, 3, 1, 9],
+        [5, 10],
+        [6],
+        [7, 8, 4]
+    ],
+    "cost": 4586.999999999993,
+    "metadata": {
+        "authors": "Florian Rascoussier (0nyr)",
+        "source": "Onyr heuristic solutions (legacy TDVRPTW-benchmarks personal BKS store)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "date": "2026-07-03",
+        "route_durations": [1700.9999999999964, 616.0, 800.0, 1469.9999999999964],
+        "route_departure_times": [23782.000000000004, 32631.0, 5760.0, 22492.000000000004],
+        "legacy_declared_value": 4586.999999999999,
+        "legacy_key": "Rifki29-n=12-6559d884b296828ac5dd296d74a04c72cc23e0db.json"
+    },
+    "objective_function": "Duration"
+}

@@ -1,0 +1,80 @@
+{
+    "instance_name": "Rifki-24",
+    "instance_origin": "Rifki2020",
+    "benchmark_name": "Rifki2020",
+    "num_customers": 20,
+    "num_vehicles": 20,
+    "vehicle_capacity": 42,
+    "coordinates": [
+        [166.966999501831, -102.64854750017403],
+        [-6.231617109649584, -32.90627482238822],
+        [-63.56948436427309, 39.9825082744749],
+        [196.99736701069864, 37.98200683719257],
+        [315.5478478062331, 26.91297661648046],
+        [64.40083150618436, -70.59627460976075],
+        [-96.7495913854028, -142.96080506878283],
+        [237.59736244325003, 103.43478624655806],
+        [-173.30438296175328, 58.968598622073216],
+        [-177.04008907728132, -37.114611288937866],
+        [-79.51994586717167, 48.7376995530255],
+        [90.02842778542852, -127.98330153951271],
+        [-178.75262270279268, 196.78621260263446],
+        [-176.41329807890352, 49.52672252525765],
+        [-72.72648782317376, 15.730926133210001],
+        [-215.18895766537875, -17.52918865078585],
+        [-202.69529070190387, -25.87657636909261],
+        [47.63652373170274, 151.68321186235042],
+        [289.86085196660355, 4.544808519833256],
+        [188.4733766423777, -29.3600978124167],
+        [-155.31782065662537, -147.31478013123888]
+    ],
+    "demands": [0, 3, 18, 1, 1, 10, 42, 5, 1, 1, 5, 1, 1, 1, 18, 1, 1, 18, 1, 1, 1],
+    "service_times": [0, 229, 297, 292, 238, 139, 76, 78, 199, 129, 90, 360, 44, 163, 210, 105, 229, 264, 145, 95, 118],
+    "time_windows": [
+        [0, 43200],
+        [11886, 37641],
+        [13499, 41031],
+        [0, 43200],
+        [17715, 25688],
+        [0, 43200],
+        [13967, 40971],
+        [0, 43200],
+        [0, 43200],
+        [5507, 38362],
+        [8603, 38850],
+        [7156, 15675],
+        [10627, 26964],
+        [2514, 36935],
+        [2472, 40991],
+        [3651, 36194],
+        [19725, 40129],
+        [19203, 34244],
+        [0, 43200],
+        [2903, 35303],
+        [0, 43200]
+    ],
+    "depot": 0,
+    "horizon": [0.0, 43200.0],
+    "td": {
+        "model": "atf-ndcpwlf",
+        "atf_path": "Rifki-24.atf.json.gz",
+        "atf_sha256": "66c69dc4c31c09d0f9bf55f93203e9ae9c94785852988299f1266aac7a6b9c48"
+    },
+    "metadata": {
+        "authors": "Florian Rascoussier (0nyr)",
+        "generated_at": "2026-07-03",
+        "generator": {
+            "name": "populate_td_rifki2020",
+            "version": "2",
+            "source": "Rifki2020 sigma=100 l=12 raw matrices + legacy TDVRPTW-benchmarks attribute harvest"
+        },
+        "raw_source": "sigma=100/n=21/cost_100_12_21_24.txt",
+        "legacy_attribute_source": "n=22/Rifki24-n=22-6ad7386a51a61ac0411c7f9f00e4092f8c75684c.json",
+        "coordinates_method": {
+            "name": "stress-layout (deterministic SMACOF, classical-MDS init, 2D)",
+            "stress1": 0.0797631157155433,
+            "pearson_r": 0.9910806106199204
+        },
+        "notes": "Real Lyon road-network stepwise travel times (Rifki et al. 2020, sigma=100, 60 steps of 720 s) made FIFO by the arrival-time lower envelope (exact MD92 transformation); upward jumps are genuine vertical steps of the arrival-time functions. K=60 is the canonical granularity (chosen over K=120 for halved breakpoint counts in the same weight class as the other TD families; see the family README). Time windows, service times, demands, capacity and fleet size are the values generated once by Onyr's legacy TDVRPTW-benchmarks pipeline (the original [RCS20] time-window files are deliberately not used); coordinates are a deterministic stress-layout embedding of the time-averaged travel times."
+    }
+}
