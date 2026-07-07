@@ -12,14 +12,27 @@
     ],
     "cost": 14786.999999999993,
     "metadata": {
-        "source": "kayros 0.3.0 lera BPC exact solve (HiGHS backend, TL 600s, warm-started from the previous BKS) \u2014 proven optimal under checker-exact route costs and standard LP/pricing tolerances, completeness modulo Lera epsilon dominance",
+        "source": "kayros 0.3.0 lera BPC exact solve (HiGHS backend, TL 600s, warm-started from the previous best-known solution)",
         "validated_by": "mamut-routing-lib td Duration checker",
         "route_durations": [1888.0, 2723.0, 1089.0, 2691.0, 2162.0, 1930.0, 1094.0, 1209.9999999999927],
         "route_departure_times": [20977.0, 28605.0, 32272.0, 26640.0, 10715.0, 8193.0, 18796.0, 22802.000000000004],
         "authors": "Florian Rascoussier (0nyr)",
         "validated_cost": 14786.999999999993,
         "validated_num_routes": 8,
-        "date": "2026-07-07T10:30:29"
+        "date": "2026-07-07T10:30:29",
+        "optimality": {
+            "proven": true,
+            "prover": "kayros 0.3.0 lera BPC (HiGHS LP backend)",
+            "certificate": "optimal under checker-exact route costs and standard LP/pricing tolerances, completeness modulo Lera epsilon dominance",
+            "date": "2026-07-07",
+            "arithmetic": "checker-exact-routes",
+            "proven_optimum": 14786.999999999993,
+            "dual_bound": 14787.0,
+            "wall_time_s": 421.82,
+            "time_limit_s": 600.0,
+            "checker": "mamut-routing-lib 0.3.0 td Duration checker",
+            "campaign": "2026-07-07 certification sweep: every Dabia2013/Ari2018/Rifki2020 instance solved by kayros 0.3.0 lera BPC (HiGHS), time limit 600 s, warm-started from the stored best-known solution"
+        }
     },
     "objective_function": "Duration"
 }

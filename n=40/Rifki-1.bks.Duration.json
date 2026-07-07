@@ -1,24 +1,37 @@
 {
     "instance_name": "Rifki-1",
     "routes": [
-        [29, 19, 22, 2, 28, 5, 39],
-        [17, 30, 18],
         [6],
-        [32, 26, 9, 27, 40, 34, 23],
-        [13, 7, 21, 15, 12, 1],
         [11, 25, 3, 33, 14, 38, 24],
-        [20, 8, 16, 36, 31, 10, 4, 35, 37]
+        [13, 21, 15, 28, 12, 1],
+        [17, 30, 18],
+        [20, 8, 16, 36, 31, 10, 4, 35, 37],
+        [29, 19, 22, 2, 7, 5, 39],
+        [32, 26, 9, 27, 40, 34, 23]
     ],
-    "cost": 11961.999999999985,
+    "cost": 11961.999999999982,
     "metadata": {
-        "source": "kayros 0.2.0.dev0 TD-ACO (seed=42, time_limit=300.0s)",
+        "source": "kayros 0.3.0 lera BPC exact solve (HiGHS backend, TL 600s, warm-started from the previous best-known solution)",
         "validated_by": "mamut-routing-lib td Duration checker",
-        "route_durations": [2251.0, 1022.0, 338.0, 1771.9999999999964, 1937.9999999999964, 1999.0, 2641.9999999999927],
-        "route_departure_times": [7200.0, 8200.0, 2312.0, 28192.0, 22714.000000000004, 19411.0, 23790.000000000004],
+        "route_durations": [338.0, 1999.0, 1852.9999999999927, 1022.0, 2641.9999999999927, 2336.0, 1771.9999999999964],
+        "route_departure_times": [2312.0, 19411.0, 22799.000000000007, 8200.0, 23790.000000000004, 7200.0, 28192.0],
         "authors": "Florian Rascoussier (0nyr)",
-        "validated_cost": 11961.999999999985,
+        "validated_cost": 11961.999999999982,
         "validated_num_routes": 7,
-        "date": "2026-07-06T05:08:33"
+        "date": "2026-07-07T13:49:04",
+        "optimality": {
+            "proven": true,
+            "prover": "kayros 0.3.0 lera BPC (HiGHS LP backend)",
+            "certificate": "optimal under checker-exact route costs and standard LP/pricing tolerances, completeness modulo Lera epsilon dominance",
+            "date": "2026-07-07",
+            "arithmetic": "checker-exact-routes",
+            "proven_optimum": 11961.999999999982,
+            "dual_bound": 11961.999999999982,
+            "wall_time_s": 431.8,
+            "time_limit_s": 600.0,
+            "checker": "mamut-routing-lib 0.3.0 td Duration checker",
+            "campaign": "2026-07-07 certification sweep: every Dabia2013/Ari2018/Rifki2020 instance solved by kayros 0.3.0 lera BPC (HiGHS), time limit 600 s, warm-started from the stored best-known solution"
+        }
     },
     "objective_function": "Duration"
 }
