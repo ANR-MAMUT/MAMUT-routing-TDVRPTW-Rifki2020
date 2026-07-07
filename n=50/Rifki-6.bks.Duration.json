@@ -1,25 +1,25 @@
 {
     "instance_name": "Rifki-6",
     "routes": [
-        [23, 9, 7, 39, 40, 10, 3, 5],
-        [15, 43, 37, 34, 44, 24, 48, 4, 47, 6],
-        [29, 46, 26],
-        [16, 45, 35, 28, 8],
-        [20, 19, 25, 17, 11, 22, 38],
-        [31, 1, 36],
         [2, 21, 12, 32, 14, 41, 42],
-        [13, 27, 30, 33, 18, 50, 49]
+        [15, 43, 37, 34, 24, 33, 30, 27, 13],
+        [16, 45, 35, 28, 8],
+        [18, 50, 44, 4, 48, 49, 47, 6],
+        [20, 19, 25, 17, 11, 22, 38],
+        [23, 9, 7, 39, 40, 10, 3, 5],
+        [29, 46, 26],
+        [31, 1, 36]
     ],
-    "cost": 14838.999999999996,
+    "cost": 14786.999999999993,
     "metadata": {
-        "source": "kayros 0.2.0.dev0 TD-ACO (seed=1618, time_limit=300.0s)",
+        "source": "kayros 0.3.0 lera BPC exact solve (HiGHS backend, TL 600s, warm-started from the previous BKS) \u2014 proven optimal under checker-exact route costs and standard LP/pricing tolerances, completeness modulo Lera epsilon dominance",
         "validated_by": "mamut-routing-lib td Duration checker",
-        "route_durations": [1930.0, 2766.0000000000036, 1094.0, 1089.0, 2162.0, 1209.9999999999927, 1888.0, 2700.0],
-        "route_departure_times": [8193.0, 30431.999999999996, 18796.0, 32272.0, 10715.0, 22802.000000000004, 20977.0, 25983.0],
+        "route_durations": [1888.0, 2723.0, 1089.0, 2691.0, 2162.0, 1930.0, 1094.0, 1209.9999999999927],
+        "route_departure_times": [20977.0, 28605.0, 32272.0, 26640.0, 10715.0, 8193.0, 18796.0, 22802.000000000004],
         "authors": "Florian Rascoussier (0nyr)",
-        "validated_cost": 14838.999999999996,
+        "validated_cost": 14786.999999999993,
         "validated_num_routes": 8,
-        "date": "2026-07-06T05:08:45"
+        "date": "2026-07-07T10:30:29"
     },
     "objective_function": "Duration"
 }

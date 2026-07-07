@@ -1,20 +1,21 @@
 {
     "instance_name": "Rifki-25",
     "routes": [
-        [7, 5, 1, 9, 8],
-        [10, 2, 6],
-        [3, 4]
+        [3, 1, 5],
+        [7],
+        [8, 9, 4],
+        [10, 2, 6]
     ],
-    "cost": 6487.0,
+    "cost": 4357.0,
     "metadata": {
-        "source": "kayros 0.0.1.dev0 TD-ACO (seed=1010, time_limit=120.0s)",
+        "source": "kayros 0.3.0 lera BPC exact solve (HiGHS backend, TL 600s, warm-started from the previous BKS) \u2014 proven optimal under checker-exact route costs and standard LP/pricing tolerances, completeness modulo Lera epsilon dominance",
         "validated_by": "mamut-routing-lib td Duration checker",
-        "route_durations": [4577.0, 981.0, 929.0],
-        "route_departure_times": [11902.0, 28787.0, 19237.0],
+        "route_durations": [1104.0, 739.0, 1533.0, 981.0],
+        "route_departure_times": [17710.0, 8803.0, 19572.0, 28787.0],
         "authors": "Florian Rascoussier (0nyr)",
-        "validated_cost": 6487.0,
-        "validated_num_routes": 3,
-        "date": "2026-07-04T21:42:08"
+        "validated_cost": 4357.0,
+        "validated_num_routes": 4,
+        "date": "2026-07-07T10:30:28"
     },
     "objective_function": "Duration"
 }

@@ -1,22 +1,23 @@
 {
     "instance_name": "Rifki-17",
     "routes": [
-        [2, 7, 1],
-        [5, 16, 18],
-        [10, 4, 3, 20, 8, 19, 11],
-        [12, 14, 17],
-        [15, 6, 13, 9]
+        [1],
+        [2, 16, 5],
+        [3, 15, 6, 13, 9],
+        [11, 19, 8],
+        [12, 14, 4, 10],
+        [18, 20, 7, 17]
     ],
-    "cost": 8694.999999999996,
+    "cost": 8474.999999999998,
     "metadata": {
-        "source": "kayros 0.2.0.dev0 TD-ACO (seed=1010, time_limit=120.0s)",
+        "source": "kayros 0.3.0 lera BPC exact solve (HiGHS backend, TL 600s, warm-started from the previous BKS) \u2014 proven optimal under checker-exact route costs and standard LP/pricing tolerances, completeness modulo Lera epsilon dominance",
         "validated_by": "mamut-routing-lib td Duration checker",
-        "route_durations": [1237.0, 1515.0, 2439.9999999999964, 1550.0, 1953.0],
-        "route_departure_times": [4966.0, 12109.0, 24139.000000000004, 20880.0, 31516.0],
+        "route_durations": [511.0, 1515.9999999999982, 2089.0000000000036, 964.0, 1993.9999999999964, 1401.0],
+        "route_departure_times": [5760.0, 10289.0, 31379.999999999996, 25686.0, 22320.000000000004, 19474.0],
         "authors": "Florian Rascoussier (0nyr)",
-        "validated_cost": 8694.999999999996,
-        "validated_num_routes": 5,
-        "date": "2026-07-06T05:08:29"
+        "validated_cost": 8474.999999999998,
+        "validated_num_routes": 6,
+        "date": "2026-07-07T10:30:28"
     },
     "objective_function": "Duration"
 }
