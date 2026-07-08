@@ -1,37 +1,24 @@
 {
     "instance_name": "Rifki-14",
     "routes": [
-        [26, 21, 18, 10, 19, 38, 7, 35, 24, 11],
-        [25, 22, 34, 8, 28, 30],
         [6, 14, 4, 16],
-        [31, 33, 9, 2, 32, 37, 3],
+        [9, 3, 37, 2, 32, 39, 5],
+        [25, 22, 34, 8, 28, 30],
+        [27, 26, 40, 18, 10, 19, 38, 15, 23, 7, 1],
         [29, 17, 20, 12],
-        [39, 15, 23, 5, 13, 1],
-        [27, 40, 36]
+        [31, 33, 35, 24, 11],
+        [36, 21, 13]
     ],
-    "cost": 13412.999999999996,
+    "cost": 13367.999999999998,
     "metadata": {
-        "source": "kayros 0.2.0.dev0 TD-ACO (seed=1010, time_limit=300.0s)",
-        "validated_by": "mamut-routing-lib td Duration checker",
-        "route_durations": [3008.0, 2355.0, 1172.0, 2335.9999999999964, 1005.0, 2299.0, 1238.0],
-        "route_departure_times": [10441.0, 29524.0, 5406.0, 22649.000000000004, 22242.0, 24463.0, 17121.0],
         "authors": "Florian Rascoussier (0nyr)",
-        "validated_cost": 13412.999999999996,
-        "validated_num_routes": 7,
-        "date": "2026-07-06T05:08:34",
-        "optimality": {
-            "proven": true,
-            "prover": "kayros 0.3.0 lera BPC (HiGHS LP backend)",
-            "certificate": "optimal under checker-exact route costs and standard LP/pricing tolerances, completeness modulo Lera epsilon dominance",
-            "date": "2026-07-07",
-            "arithmetic": "checker-exact-routes",
-            "proven_optimum": 13412.999999999996,
-            "dual_bound": 13412.999999999996,
-            "wall_time_s": 62.58,
-            "time_limit_s": 600.0,
-            "checker": "mamut-routing-lib 0.3.0 td Duration checker",
-            "campaign": "2026-07-07 certification sweep: every Dabia2013/Ari2018/Rifki2020 instance solved by kayros 0.3.0 lera BPC (HiGHS), time limit 600 s, warm-started from the stored best-known solution"
-        }
+        "source": "kayros 0.4.0.dev0 TD-ILS (seed=123, time_limit=300.0s)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "date": "2026-07-08T10:33:11",
+        "route_durations": [1172.0, 2528.0, 2355.0, 3310.0, 1005.0, 1741.9999999999982, 1256.0],
+        "route_departure_times": [5406.0, 23026.0, 29524.0, 17088.0, 22242.0, 12032.0, 25184.0],
+        "validated_cost": 13367.999999999998,
+        "validated_num_routes": 7
     },
     "objective_function": "Duration"
 }

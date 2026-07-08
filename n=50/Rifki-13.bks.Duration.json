@@ -2,38 +2,25 @@
     "instance_name": "Rifki-13",
     "routes": [
         [3, 28],
-        [4, 32, 44, 30, 13],
-        [16, 10, 35, 48, 26, 23, 36, 8, 25],
-        [17, 38, 21, 19, 31, 47],
-        [20, 9, 11, 6, 45, 18, 33, 50, 49],
-        [22, 34, 46, 37],
-        [24, 1, 7, 15, 5],
-        [42, 29, 41, 12, 2, 27, 14],
-        [43, 40, 39]
+        [5, 4, 49, 50, 7, 1],
+        [10, 35, 48, 23, 26, 33, 8, 47, 25, 24],
+        [16, 6, 11, 9, 36, 32, 2, 27, 14],
+        [17, 38, 21, 19, 31],
+        [20, 45, 18, 15],
+        [29, 37, 22, 34, 46, 13],
+        [41, 12, 44, 30],
+        [42, 43, 40, 39]
     ],
-    "cost": 16811.999999999993,
+    "cost": 16740.999999999993,
     "metadata": {
-        "source": "kayros 0.3.0 lera BPC exact solve (HiGHS backend, TL 600s, warm-started from the previous best-known solution)",
-        "validated_by": "mamut-routing-lib td Duration checker",
-        "route_durations": [472.0, 2302.999999999998, 3077.0, 1750.9999999999964, 3022.0, 1193.9999999999964, 1914.0, 2320.0, 759.0],
-        "route_departure_times": [5359.0, 10740.0, 28430.0, 25409.0, 19255.0, 24985.0, 13555.0, 25458.0, 32502.0],
         "authors": "Florian Rascoussier (0nyr)",
-        "validated_cost": 16811.999999999993,
-        "validated_num_routes": 9,
-        "date": "2026-07-07T10:30:29",
-        "optimality": {
-            "proven": true,
-            "prover": "kayros 0.3.0 lera BPC (HiGHS LP backend)",
-            "certificate": "optimal under checker-exact route costs and standard LP/pricing tolerances, completeness modulo Lera epsilon dominance",
-            "date": "2026-07-07",
-            "arithmetic": "checker-exact-routes",
-            "proven_optimum": 16811.999999999993,
-            "dual_bound": 16811.999999999993,
-            "wall_time_s": 181.83,
-            "time_limit_s": 600.0,
-            "checker": "mamut-routing-lib 0.3.0 td Duration checker",
-            "campaign": "2026-07-07 certification sweep: every Dabia2013/Ari2018/Rifki2020 instance solved by kayros 0.3.0 lera BPC (HiGHS), time limit 600 s, warm-started from the stored best-known solution"
-        }
+        "source": "kayros 0.4.0.dev0 TD-ACO+ILS (seed=123, time_limit=300.0s)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "date": "2026-07-08T10:33:12",
+        "route_durations": [472.0, 2087.0, 3251.9999999999964, 3191.9999999999964, 1700.0, 1785.0, 1632.0, 1613.0, 1008.0],
+        "route_departure_times": [5359.0, 10708.0, 28584.0, 25200.0, 25209.0, 16560.0, 22089.0, 21614.0, 32253.0],
+        "validated_cost": 16740.999999999993,
+        "validated_num_routes": 9
     },
     "objective_function": "Duration"
 }
