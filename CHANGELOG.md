@@ -2,6 +2,10 @@
 
 All notable changes to the curated `Rifki2020` TDVRPTW best-known solutions (BKS) are recorded here. Objective: **Duration** (duration minimization — the depot departure time of each route is a decision variable). Costs are the authoritative output of the canonical checker (`mamut_routing_lib.td.check_td_solution`): exact IEEE-754 double arithmetic, no epsilon thresholds, routes in canonical order (sorted by first customer), total summed in that order — so any strict improvement is real. Reminder: time windows and vehicle attributes are Onyr's curated ones, not the original [RCS20] TW files (see README.md), so these BKS are not comparable with results on the original setting.
 
+## 2026-07-08
+
+61 of 180 BKS improved (mean -0.62%, largest single improvement -1.78%) by a 20,808-run anytime-strategy head-to-head campaign on Grid'5000: kayros 0.4.0.dev0 (TD-ILS, TD-ACO+LS, and an ACO-then-ILS budget split, all over the granular time-dependent local search), per-size time limits (120 s for n<=30, 300 s for n<=60, 600 s for n<=100), seeds {42, 123, 456}, single-threaded runs. Improve-only fold: for each instance the campaign-best solution was re-priced by the canonical checker before writing (checker cost authoritative); stored BKS marked proven optimal were left untouched.
+
 ## 2026-07-07
 
 13 BKS improved by exact solves — **proven optimal**: kayros 0.3.0 lera branch-price-and-cut (HiGHS backend, warm-started from the previous BKS, TL 600 s), from the certification campaign over all families n≤50. Three n=10 entries were far from optimal (Rifki-26: 9045 → 4632, −48.8%; Rifki-25: −32.8%; Rifki-6: −26.5%); the other ten range −0.1% to −2.5% across n=20..50. Certificates: optimal under checker-exact route costs and standard LP/pricing tolerances, completeness modulo Lera epsilon dominance. The same campaign certified 91 of the other stored TDVRPTW BKS of this family optimal as stored (27 of 30 at n=10; the other 3 are among today's improvements).

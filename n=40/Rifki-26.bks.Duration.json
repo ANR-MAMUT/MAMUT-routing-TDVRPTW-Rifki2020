@@ -1,24 +1,24 @@
 {
     "instance_name": "Rifki-26",
     "routes": [
-        [16, 23, 10, 15, 7, 19, 11, 28, 24, 21, 26, 30, 32],
+        [4, 23, 2, 7, 11, 28, 1, 30],
+        [13],
+        [14, 25, 31, 5],
+        [16, 10, 19, 24, 21, 9, 17, 20],
         [27, 38, 18, 6, 39],
-        [14, 25, 31, 13],
-        [34, 20, 36, 5],
-        [35, 29, 1, 17, 2],
-        [40, 12, 22, 33],
-        [4, 9, 3, 8, 37]
+        [32, 26, 35, 29, 3, 8, 37, 15, 34, 36],
+        [40, 12, 22, 33]
     ],
-    "cost": 12459.99999999999,
+    "cost": 12389.999999999993,
     "metadata": {
-        "source": "kayros 0.2.0.dev0 TD-ACO (seed=5772, time_limit=300.0s)",
-        "validated_by": "mamut-routing-lib td Duration checker",
-        "route_durations": [3146.0, 1636.0, 1175.9999999999964, 1480.9999999999964, 1580.9999999999982, 1416.0, 2024.0],
-        "route_departure_times": [17813.0, 7333.0, 24850.0, 23760.000000000004, 10951.0, 28080.0, 37972.0],
         "authors": "Florian Rascoussier (0nyr)",
-        "validated_cost": 12459.99999999999,
-        "validated_num_routes": 7,
-        "date": "2026-07-06T05:08:36"
+        "source": "kayros 0.4.0.dev0 TD-ILS (seed=42, time_limit=300.0s)",
+        "validated_by": "mamut-routing-lib td Duration checker",
+        "date": "2026-07-08T03:22:55",
+        "route_durations": [2137.0, 522.9999999999964, 1105.0, 2571.0, 1636.0, 3001.9999999999964, 1416.0],
+        "route_departure_times": [7438.0, 25503.0, 24938.0, 34132.0, 7333.0, 18963.0, 28080.0],
+        "validated_cost": 12389.999999999993,
+        "validated_num_routes": 7
     },
     "objective_function": "Duration"
 }
