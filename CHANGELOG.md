@@ -2,6 +2,10 @@
 
 All notable changes to the curated `Rifki2020` TDVRPTW best-known solutions (BKS) are recorded here. Objective: **Duration** (duration minimization — the depot departure time of each route is a decision variable). Costs are the authoritative output of the canonical checker (`mamut_routing_lib.td.check_td_solution`): exact IEEE-754 double arithmetic, no epsilon thresholds, routes in canonical order (sorted by first customer), total summed in that order — so any strict improvement is real. Reminder: time windows and vehicle attributes are Onyr's curated ones, not the original [RCS20] TW files (see README.md), so these BKS are not comparable with results on the original setting.
 
+## 2026-07-11
+
+**62 BKS stamped proven optimal** (`metadata.optimality`): optimality certificates RETURN to this family after the 2026-07-08 retraction, under a strictly stronger protocol and a repaired prover (the pricing-ladder termination defect that produced the retracted certificates is fixed; the four-run protocol was validated to catch the failure class). Each stamp certifies four independent exact solves (cold and warm starts x two labeling modes) agreeing on the value, an audited exact-pricing phase in every run, zero checker-infeasible priced columns, and canonical-checker re-validation at stamping time. Instances whose runs disagreed, timed out, or priced a checker-infeasible column carry NO stamp. All 30 instances at n=10 are certified; larger sizes are certified only where all four runs closed and agreed.
+
 ## 2026-07-10 (second entry)
 
 3 further BKS improved under the same four-run agreement protocol as the Vu2020 fold of the same date (exact solver, cold/warm x two labeling modes, checker re-validated, no optimality stamps): Rifki-26 n=10, Rifki-17 n=20, Rifki-17 n=50.
