@@ -1,25 +1,26 @@
 {
     "instance_name": "Rifki-20",
     "routes": [
-        [3, 18, 43, 36, 48, 26, 35, 46, 27],
-        [5, 14, 47, 4, 1, 31, 28, 45],
+        [5, 17, 30, 14, 47, 4, 1, 27],
+        [16],
         [21, 44, 34, 10, 6],
-        [25, 42, 40, 19],
-        [29, 12, 16, 17, 30],
+        [29, 3, 18, 43, 36, 12, 26, 35, 46],
+        [31, 28, 45, 25],
         [33, 15, 38, 49, 20, 32, 2, 41, 24],
-        [39, 7, 13, 37, 11, 22, 8],
+        [39, 7, 13, 37, 48, 11, 22, 8],
+        [42, 40, 19],
         [50, 23, 9]
     ],
-    "cost": 18888.0,
+    "cost": 18810.0,
     "metadata": {
-        "authors": "Florian Rascoussier (0nyr)",
-        "source": "kayros 0.4.0.dev0 TD-ILS (seed=42, time_limit=300.0s)",
+        "source": "kayros lera BPC exact solve (HiGHS backend, TL 600 s) \u2014 best solution found and validated by the reference checker; recorded as a solution, not as an optimality certificate (certification on stepwise arrival-time functions is withheld pending an exact value-jump labeling)",
         "validated_by": "mamut-routing-lib td Duration checker",
-        "date": "2026-07-08T10:33:12",
-        "route_durations": [3303.000000000001, 2387.000000000002, 1759.0, 1157.9999999999964, 1731.0, 3382.0, 2946.0, 2222.0],
-        "route_departure_times": [7638.999999999999, 15668.999999999998, 28697.0, 25603.0, 7310.0, 25775.0, 16743.0, 38662.0],
-        "validated_cost": 18888.0,
-        "validated_num_routes": 8
+        "route_durations": [2307.999999999998, 439.0, 1759.0, 3459.0, 1059.0, 3382.0, 3140.0, 1042.0, 2222.0],
+        "route_departure_times": [10377.0, 2580.0, 28697.0, 7302.0, 17104.0, 25775.0, 16651.0, 24261.0, 38662.0],
+        "authors": "Florian Rascoussier (0nyr)",
+        "validated_cost": 18810.0,
+        "validated_num_routes": 9,
+        "date": "2026-07-10T00:45:09"
     },
     "objective_function": "Duration"
 }
