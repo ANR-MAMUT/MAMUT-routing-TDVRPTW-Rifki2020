@@ -2,6 +2,10 @@
 
 All notable changes to the curated `Rifki2020` TDVRPTW best-known solutions (BKS) are recorded here. Objective: **Duration** (duration minimization — the depot departure time of each route is a decision variable). Costs are the authoritative output of the canonical checker (`mamut_routing_lib.td.check_td_solution`): exact IEEE-754 double arithmetic, no epsilon thresholds, routes in canonical order (sorted by first customer), total summed in that order — so any strict improvement is real. Reminder: time windows and vehicle attributes are Onyr's curated ones, not the original [RCS20] TW files (see README.md), so these BKS are not comparable with results on the original setting.
 
+## 2026-07-10 (second entry)
+
+3 further BKS improved under the same four-run agreement protocol as the Vu2020 fold of the same date (exact solver, cold/warm x two labeling modes, checker re-validated, no optimality stamps): Rifki-26 n=10, Rifki-17 n=20, Rifki-17 n=50.
+
 ## 2026-07-10
 
 3 BKS improved by exact solves recorded as ordinary best-known solutions (no optimality stamps): Rifki-30 n=40 (15743 -> 15691, -0.33%), Rifki-20 n=50 (18888 -> 18810, -0.41%), Rifki-21 n=50 (16957 -> 16951, -0.04%), from a two-arm re-certification attempt (kayros lera branch-price-and-cut, HiGHS backend, cold and warm runs in separate processes, TL 600 s, Grid'5000). The campaign's certificates were withheld: certification on this family's stepwise travel-time functions remains blocked because certified values were again warm-start-dependent on some instances, and additionally proved sensitive to the build toolchain (the same instance and input certify different "optima" under two compilers). Each folded solution was re-priced by the canonical checker before writing (checker cost authoritative); a checker-valid strict improvement stands regardless of certificate validity.
