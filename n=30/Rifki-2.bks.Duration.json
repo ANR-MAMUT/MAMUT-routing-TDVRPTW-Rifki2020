@@ -7,16 +7,22 @@
         [12, 16, 18, 5, 23, 10, 19],
         [29, 15, 4, 2, 30]
     ],
-    "cost": 9643.999999999993,
+    "cost": 9644.0,
     "metadata": {
         "source": "kayros 0.3.0 lera BPC exact solve (HiGHS backend, TL 600s, warm-started from the previous best-known solution)",
         "validated_by": "mamut-routing-lib td Duration checker",
-        "route_durations": [1924.9999999999964, 2447.999999999998, 1960.0, 2108.0, 1202.999999999999],
-        "route_departure_times": [22833.0, 10058.0, 26672.0, 19808.0, 5380.0],
+        "route_durations": [1925.0, 2448.0, 1960.0, 2108.0, 1203.0],
+        "route_departure_times": [22810.0, 9914.0, 26640.0, 19808.0, 5380.0],
         "authors": "Florian Rascoussier (0nyr)",
-        "validated_cost": 9643.999999999993,
+        "validated_cost": 9644.0,
         "validated_num_routes": 5,
-        "date": "2026-07-07T10:30:28"
+        "date": "2026-07-07T10:30:28",
+        "repriced": {
+            "previous_cost": 9643.999999999993,
+            "checker": "mamut-routing-lib td checker, contract td-fold/2 (lib >= 0.12.0)",
+            "contract": "td-fold/2",
+            "date": "2026-09-24"
+        }
     },
     "objective_function": "Duration"
 }
