@@ -15,8 +15,8 @@
         "source": "kayros 0.4.0.dev0 TD-ILS (seed=123, time_limit=300.0s)",
         "validated_by": "mamut-routing-lib td Duration checker",
         "date": "2026-07-08T03:22:55",
-        "route_durations": [2778.9999999999964, 2366.0, 1472.0000000000036, 2103.0, 1210.0, 1943.0, 1824.0],
-        "route_departure_times": [22320.000000000004, 19374.0, 25868.0, 17720.0, 24383.0, 7401.0, 7200.0],
+        "route_durations": [2779.0, 2366.0, 1472.0, 2103.0, 1210.0, 1943.0, 1824.0],
+        "route_departure_times": [22320.0, 19374.0, 25868.0, 17720.0, 24383.0, 7401.0, 7200.0],
         "validated_cost": 13697.0,
         "validated_num_routes": 7
     },

@@ -14,8 +14,8 @@
     "metadata": {
         "source": "kayros 0.3.0 lera BPC exact solve (HiGHS backend, TL 600s, warm-started from the previous best-known solution)",
         "validated_by": "mamut-routing-lib td Duration checker",
-        "route_durations": [2033.0, 1790.0, 1684.0000000000018, 2472.0, 1614.0, 870.0, 2816.999999999999, 2829.0],
-        "route_departure_times": [20160.0, 32961.0, 16156.999999999998, 11520.0, 37772.0, 6049.0, 4842.0, 25560.0],
+        "route_durations": [2033.0, 1790.0, 1684.0, 2472.0, 1614.0, 870.0, 2817.0, 2829.0],
+        "route_departure_times": [20160.0, 32961.0, 16157.0, 11520.0, 37772.0, 6049.0, 4842.0, 25560.0],
         "authors": "Florian Rascoussier (0nyr)",
         "validated_cost": 16109.0,
         "validated_num_routes": 8,

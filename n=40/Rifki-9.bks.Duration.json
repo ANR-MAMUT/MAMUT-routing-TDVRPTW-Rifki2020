@@ -15,8 +15,8 @@
         "source": "kayros 0.4.0.dev0 TD-ACO+ILS (seed=456, time_limit=300.0s)",
         "validated_by": "mamut-routing-lib td Duration checker",
         "date": "2026-07-08T10:33:11",
-        "route_durations": [2739.0, 1981.0000000000036, 1768.0, 2418.0, 2099.0, 1438.0, 1928.9999999999964],
-        "route_departure_times": [10980.0, 31532.999999999996, 25200.0, 6435.0, 19160.0, 38271.0, 28800.0],
+        "route_durations": [2739.0, 1981.0, 1768.0, 2418.0, 2099.0, 1438.0, 1929.0],
+        "route_departure_times": [10916.0, 31533.0, 25200.0, 6435.0, 19160.0, 38271.0, 28800.0],
         "validated_cost": 14372.0,
         "validated_num_routes": 7,
         "optimality": {
