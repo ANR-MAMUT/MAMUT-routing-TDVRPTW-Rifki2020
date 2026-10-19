@@ -35,3 +35,9 @@ Population pipeline: `populate_td_rifki2020` v2 (curation tooling maintained out
 ## Provenance and licensing
 
 Underlying travel-time data: Rifki, Chiabaut & Solnon (2020), Lyon road network with a traffic simulation built from real-world data (see the TDGPDP page of Christine Solnon). MAMUT-authored curation artifacts are distributed under the MIT license; this notice does not relicense the underlying third-party data.
+
+## Citation and benchmark authorship
+
+The authors, in citation order, are Adrien Pichon, Florian Rascoussier, Romain Billot, Lina Fahed, Alexandru-Liviu Olteanu, Marc Sevaux and Christine Solnon. The 2 lead authors are ordered alphabetically by surname, followed by the scientific supervisors in alphabetical order. Their ORCID identifiers are recorded in [CITATION.cff](CITATION.cff).
+
+The listed authors contribute the TDVRPTW benchmark constructed from the Lyon travel-time data of Rifki, Chiabaut and Solnon (2020). The contribution includes selecting the 12-minute discretization, applying and validating the arrival-time lower-envelope FIFO transformation, generating the routing attributes and publishing the resulting instances. The generated time windows, demands, capacities, fleet sizes and service times define a capacitated multi-vehicle benchmark distinct from the source study. Cite this repository for the benchmark adaptation, Rifki, Chiabaut and Solnon for the underlying data, and Malandraki and Daskin (1992) for the FIFO-restoration method. Individual solution-contributor credits are recorded with the solutions. Record the exact Git commit used in experiments.

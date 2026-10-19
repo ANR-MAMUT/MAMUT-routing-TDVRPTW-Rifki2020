@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+title: MAMUT-routing-TDVRPTW-Rifki2020
+type: dataset
+message: >-
+  Cite this metadata for the Rifki2020 TDVRPTW benchmark adaptation, generated routing attributes and FIFO-restored travel-time representation. Also cite Rifki, Chiabaut and Solnon (2020) for the underlying Lyon travel-time data and Malandraki and Daskin (1992) for the FIFO transformation. Record the exact Git commit used.
+authors:
+  - given-names: Adrien
+    family-names: Pichon
+    alias: Anzury
+    affiliation: Université Bretagne Sud
+    orcid: "https://orcid.org/0009-0005-8630-3962"
+  - given-names: Florian
+    family-names: Rascoussier
+    alias: Onyr
+    affiliation: IMT Atlantique; INSA Lyon
+    orcid: "https://orcid.org/0009-0005-3253-9814"
+  - given-names: Romain
+    family-names: Billot
+    affiliation: IMT Atlantique; Lab-STICC
+    orcid: "https://orcid.org/0000-0002-2614-3822"
+  - given-names: Lina
+    family-names: Fahed
+    affiliation: IMT Atlantique; Lab-STICC
+    orcid: "https://orcid.org/0000-0002-7207-0580"
+  - given-names: Alexandru-Liviu
+    family-names: Olteanu
+    affiliation: Université Bretagne Sud; Lab-STICC
+    orcid: "https://orcid.org/0000-0002-0715-2168"
+  - given-names: Marc
+    family-names: Sevaux
+    affiliation: Université Bretagne Sud; Lab-STICC
+    orcid: "https://orcid.org/0000-0003-3855-9072"
+  - given-names: Christine
+    family-names: Solnon
+    affiliation: INSA Lyon; Inria; CITI
+    orcid: "https://orcid.org/0000-0002-0919-496X"
+repository-code: "https://github.com/ANR-MAMUT/MAMUT-routing-TDVRPTW-Rifki2020"
+url: "https://github.com/ANR-MAMUT/MAMUT-routing-TDVRPTW-Rifki2020"
+abstract: >-
+  This TDVRPTW benchmark constructs capacitated multi-vehicle routing instances from the Lyon travel-time data of Rifki, Chiabaut and Solnon (2020). The benchmark design selects the 12-minute temporal granularity, applies arrival-time lower-envelope FIFO restoration, and combines the travel times with generated demands, capacities, fleet sizes and service times. Generated time windows replace those of the source study. The listed authors contribute the benchmark adaptation, preprocessing choices, generated attributes, validation and publication. Source-data and transformation-method credit are retained in README.md.
