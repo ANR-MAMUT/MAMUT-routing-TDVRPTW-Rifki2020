@@ -1,32 +1,31 @@
 {
     "instance_name": "Rifki-10",
     "routes": [
-        [23, 19, 45, 12, 36, 20],
-        [24, 57, 32, 54, 17],
-        [26, 30, 3, 10, 52, 53, 16, 44],
-        [39, 2, 60, 51, 48, 11, 33],
-        [41, 58, 9, 6, 55, 7, 43, 27, 8],
-        [46, 35, 15, 42, 29, 14, 22, 1, 25, 5],
-        [49, 56, 38, 40, 47],
-        [50, 37, 31, 18],
-        [59, 13, 34, 4, 28, 21]
+        [4, 57, 21],
+        [9, 6, 55, 7, 43, 27, 8, 23],
+        [36, 20, 60, 38, 47],
+        [37, 18],
+        [39, 24, 13, 32, 34, 29, 14, 1, 25, 5],
+        [41, 46, 35, 15, 42, 22, 2, 17, 40],
+        [49, 33, 26, 56, 51, 48, 11, 44],
+        [50, 31, 30, 3, 10, 52, 53, 16],
+        [59, 19, 58, 28, 45, 12, 54]
     ],
-    "cost": 20187.0,
+    "cost": 20131.0,
     "metadata": {
-        "authors": "Florian Rascoussier (0nyr)",
-        "source": "kayros 1.1.2 TD-ILS (seed=7777, time_limit=600.0s)",
-        "validated_by": "mamut-routing-lib td Duration checker",
-        "date": "2026-07-20T06:59:42",
-        "route_durations": [2503.0, 1599.0, 1808.0, 2104.0, 3162.0, 3798.0, 1758.0, 1352.0, 2103.0],
-        "route_departure_times": [28326.0, 10965.0, 25166.0, 17961.0, 12035.0, 17776.0, 25002.0, 8087.0, 7862.0],
-        "validated_cost": 20187.0,
+        "method": "Hybrid Genetic Search (reported by contributor)",
+        "route_departure_times": [9485.0, 12132.0, 30617.0, 7920.0, 23819.0, 17275.0, 24314.0, 24589.0, 28080.0],
+        "route_durations": [1436.0, 3077.0, 1919.0, 701.0, 3176.0, 3011.0, 2337.0, 2119.0, 2355.0],
+        "source": "https://github.com/ANR-MAMUT/MAMUT-routing-TDVRPTW-Rifki2020/issues/2",
+        "submitted_solution_sha256": "ac3122515d9951bf47978abbd84bdef18736bccd6c31a1867cc0e39125970cd5",
+        "checker": "mamut-routing-lib 0.12.0",
+        "checker_commit": "3f8d07705d6d00bba1b94180833f82c005c2f5c6",
+        "verification_report": "contributions/2026-11-04-issue-2.json",
+        "checker_contract": "td-fold/2",
+        "authors": "Farah Abdallah",
+        "validated_cost": 20131.0,
         "validated_num_routes": 9,
-        "repriced": {
-            "previous_cost": 20187.000000000004,
-            "checker": "mamut-routing-lib td checker, contract td-fold/2 (lib >= 0.12.0)",
-            "contract": "td-fold/2",
-            "date": "2026-09-24"
-        }
+        "date": "2026-11-04T03:52:07"
     },
     "objective_function": "Duration"
 }

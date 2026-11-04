@@ -1,0 +1,742 @@
+{
+  "atf_file_sha256": "03577b71a51fec9c186588a087bbfa0525bdbb97e7515f9f7e28fa884a1285d1",
+  "candidate_attachment": {
+    "bytes": 1146,
+    "file": "Rifki-10.candidate.Duration.json",
+    "sha256": "ac3122515d9951bf47978abbd84bdef18736bccd6c31a1867cc0e39125970cd5",
+    "source": "https://github.com/user-attachments/files/33880497/Rifki-10.candidate.Duration.json"
+  },
+  "canonical_candidate": {
+    "error_message": "",
+    "num_routes": 9,
+    "route_evaluations": [
+      {
+        "departure_time": 28080.0,
+        "duration": 2355.0,
+        "feasible": true,
+        "route": [
+          59,
+          19,
+          58,
+          28,
+          45,
+          12,
+          54
+        ]
+      },
+      {
+        "departure_time": 24314.0,
+        "duration": 2337.0,
+        "feasible": true,
+        "route": [
+          49,
+          33,
+          26,
+          56,
+          51,
+          48,
+          11,
+          44
+        ]
+      },
+      {
+        "departure_time": 23819.0,
+        "duration": 3176.0,
+        "feasible": true,
+        "route": [
+          39,
+          24,
+          13,
+          32,
+          34,
+          29,
+          14,
+          1,
+          25,
+          5
+        ]
+      },
+      {
+        "departure_time": 30617.0,
+        "duration": 1919.0,
+        "feasible": true,
+        "route": [
+          36,
+          20,
+          60,
+          38,
+          47
+        ]
+      },
+      {
+        "departure_time": 12132.0,
+        "duration": 3077.0,
+        "feasible": true,
+        "route": [
+          9,
+          6,
+          55,
+          7,
+          43,
+          27,
+          8,
+          23
+        ]
+      },
+      {
+        "departure_time": 9485.0,
+        "duration": 1436.0,
+        "feasible": true,
+        "route": [
+          4,
+          57,
+          21
+        ]
+      },
+      {
+        "departure_time": 7920.0,
+        "duration": 701.0,
+        "feasible": true,
+        "route": [
+          37,
+          18
+        ]
+      },
+      {
+        "departure_time": 17275.0,
+        "duration": 3011.0,
+        "feasible": true,
+        "route": [
+          41,
+          46,
+          35,
+          15,
+          42,
+          22,
+          2,
+          17,
+          40
+        ]
+      },
+      {
+        "departure_time": 24589.0,
+        "duration": 2119.0,
+        "feasible": true,
+        "route": [
+          50,
+          31,
+          30,
+          3,
+          10,
+          52,
+          53,
+          16
+        ]
+      }
+    ],
+    "routing_cost": 20131.0,
+    "status": "valid"
+  },
+  "canonical_incumbent": {
+    "error_message": "",
+    "num_routes": 9,
+    "route_evaluations": [
+      {
+        "departure_time": 28326.0,
+        "duration": 2503.0,
+        "feasible": true,
+        "route": [
+          23,
+          19,
+          45,
+          12,
+          36,
+          20
+        ]
+      },
+      {
+        "departure_time": 10965.0,
+        "duration": 1599.0,
+        "feasible": true,
+        "route": [
+          24,
+          57,
+          32,
+          54,
+          17
+        ]
+      },
+      {
+        "departure_time": 25166.0,
+        "duration": 1808.0,
+        "feasible": true,
+        "route": [
+          26,
+          30,
+          3,
+          10,
+          52,
+          53,
+          16,
+          44
+        ]
+      },
+      {
+        "departure_time": 17961.0,
+        "duration": 2104.0,
+        "feasible": true,
+        "route": [
+          39,
+          2,
+          60,
+          51,
+          48,
+          11,
+          33
+        ]
+      },
+      {
+        "departure_time": 12035.0,
+        "duration": 3162.0,
+        "feasible": true,
+        "route": [
+          41,
+          58,
+          9,
+          6,
+          55,
+          7,
+          43,
+          27,
+          8
+        ]
+      },
+      {
+        "departure_time": 17776.0,
+        "duration": 3798.0,
+        "feasible": true,
+        "route": [
+          46,
+          35,
+          15,
+          42,
+          29,
+          14,
+          22,
+          1,
+          25,
+          5
+        ]
+      },
+      {
+        "departure_time": 25002.0,
+        "duration": 1758.0,
+        "feasible": true,
+        "route": [
+          49,
+          56,
+          38,
+          40,
+          47
+        ]
+      },
+      {
+        "departure_time": 8087.0,
+        "duration": 1352.0,
+        "feasible": true,
+        "route": [
+          50,
+          37,
+          31,
+          18
+        ]
+      },
+      {
+        "departure_time": 7862.0,
+        "duration": 2103.0,
+        "feasible": true,
+        "route": [
+          59,
+          13,
+          34,
+          4,
+          28,
+          21
+        ]
+      }
+    ],
+    "routing_cost": 20187.0,
+    "status": "valid"
+  },
+  "checker": {
+    "commit": "3f8d07705d6d00bba1b94180833f82c005c2f5c6",
+    "contract": "td-fold/2",
+    "name": "mamut-routing-lib",
+    "version": "0.12.0"
+  },
+  "contributor": "Farah Abdallah",
+  "date": "2026-11-04T03:52:05.877833+00:00",
+  "global_optimality_claim": false,
+  "incumbent_sha256": "140002baa9ef809add8a9dab0e9ad6bcbce3308db0f760e15cfe9c85bb8caf2d",
+  "independent_candidate": {
+    "cost": 20131,
+    "departure_domain": [
+      0,
+      43200
+    ],
+    "method": "Independent integer forward simulation at every integer depot departure. Used ATF breakpoints, time windows and services are integral, and every nonvertical used arc segment has slope 0 or 1. Composition and waiting therefore retain integer breakpoints and slopes 0 or 1. Duration minima occur at integral departures, so the enumeration covers real-time optima for these fixed routes. Jumps use the first value at a repeated abscissa.",
+    "resources": {
+      "capacity": 147,
+      "customers_served_once": 60,
+      "fleet_limit": 60,
+      "num_routes": 9,
+      "route_loads": [
+        147,
+        138,
+        147,
+        146,
+        145,
+        147,
+        22,
+        147,
+        144
+      ]
+    },
+    "route_evaluations": [
+      {
+        "departure_time": 28080,
+        "duration": 2355,
+        "feasible_integer_departures": 29616,
+        "integer_departures_examined": 43201,
+        "route": [
+          59,
+          19,
+          58,
+          28,
+          45,
+          12,
+          54
+        ]
+      },
+      {
+        "departure_time": 24314,
+        "duration": 2337,
+        "feasible_integer_departures": 24454,
+        "integer_departures_examined": 43201,
+        "route": [
+          49,
+          33,
+          26,
+          56,
+          51,
+          48,
+          11,
+          44
+        ]
+      },
+      {
+        "departure_time": 23819,
+        "duration": 3176,
+        "feasible_integer_departures": 27806,
+        "integer_departures_examined": 43201,
+        "route": [
+          39,
+          24,
+          13,
+          32,
+          34,
+          29,
+          14,
+          1,
+          25,
+          5
+        ]
+      },
+      {
+        "departure_time": 30617,
+        "duration": 1919,
+        "feasible_integer_departures": 37170,
+        "integer_departures_examined": 43201,
+        "route": [
+          36,
+          20,
+          60,
+          38,
+          47
+        ]
+      },
+      {
+        "departure_time": 12132,
+        "duration": 3077,
+        "feasible_integer_departures": 14009,
+        "integer_departures_examined": 43201,
+        "route": [
+          9,
+          6,
+          55,
+          7,
+          43,
+          27,
+          8,
+          23
+        ]
+      },
+      {
+        "departure_time": 9485,
+        "duration": 1436,
+        "feasible_integer_departures": 9995,
+        "integer_departures_examined": 43201,
+        "route": [
+          4,
+          57,
+          21
+        ]
+      },
+      {
+        "departure_time": 7920,
+        "duration": 701,
+        "feasible_integer_departures": 19108,
+        "integer_departures_examined": 43201,
+        "route": [
+          37,
+          18
+        ]
+      },
+      {
+        "departure_time": 17275,
+        "duration": 3011,
+        "feasible_integer_departures": 20496,
+        "integer_departures_examined": 43201,
+        "route": [
+          41,
+          46,
+          35,
+          15,
+          42,
+          22,
+          2,
+          17,
+          40
+        ]
+      },
+      {
+        "departure_time": 24589,
+        "duration": 2119,
+        "feasible_integer_departures": 27003,
+        "integer_departures_examined": 43201,
+        "route": [
+          50,
+          31,
+          30,
+          3,
+          10,
+          52,
+          53,
+          16
+        ]
+      }
+    ],
+    "used_arcs": 69
+  },
+  "independent_incumbent": {
+    "cost": 20187,
+    "departure_domain": [
+      0,
+      43200
+    ],
+    "method": "Independent integer forward simulation at every integer depot departure. Used ATF breakpoints, time windows and services are integral, and every nonvertical used arc segment has slope 0 or 1. Composition and waiting therefore retain integer breakpoints and slopes 0 or 1. Duration minima occur at integral departures, so the enumeration covers real-time optima for these fixed routes. Jumps use the first value at a repeated abscissa.",
+    "resources": {
+      "capacity": 147,
+      "customers_served_once": 60,
+      "fleet_limit": 60,
+      "num_routes": 9,
+      "route_loads": [
+        145,
+        138,
+        147,
+        144,
+        135,
+        140,
+        139,
+        67,
+        128
+      ]
+    },
+    "route_evaluations": [
+      {
+        "departure_time": 28326,
+        "duration": 2503,
+        "feasible_integer_departures": 31230,
+        "integer_departures_examined": 43201,
+        "route": [
+          23,
+          19,
+          45,
+          12,
+          36,
+          20
+        ]
+      },
+      {
+        "departure_time": 10965,
+        "duration": 1599,
+        "feasible_integer_departures": 11019,
+        "integer_departures_examined": 43201,
+        "route": [
+          24,
+          57,
+          32,
+          54,
+          17
+        ]
+      },
+      {
+        "departure_time": 25166,
+        "duration": 1808,
+        "feasible_integer_departures": 27501,
+        "integer_departures_examined": 43201,
+        "route": [
+          26,
+          30,
+          3,
+          10,
+          52,
+          53,
+          16,
+          44
+        ]
+      },
+      {
+        "departure_time": 17961,
+        "duration": 2104,
+        "feasible_integer_departures": 22376,
+        "integer_departures_examined": 43201,
+        "route": [
+          39,
+          2,
+          60,
+          51,
+          48,
+          11,
+          33
+        ]
+      },
+      {
+        "departure_time": 12035,
+        "duration": 3162,
+        "feasible_integer_departures": 13699,
+        "integer_departures_examined": 43201,
+        "route": [
+          41,
+          58,
+          9,
+          6,
+          55,
+          7,
+          43,
+          27,
+          8
+        ]
+      },
+      {
+        "departure_time": 17776,
+        "duration": 3798,
+        "feasible_integer_departures": 20172,
+        "integer_departures_examined": 43201,
+        "route": [
+          46,
+          35,
+          15,
+          42,
+          29,
+          14,
+          22,
+          1,
+          25,
+          5
+        ]
+      },
+      {
+        "departure_time": 25002,
+        "duration": 1758,
+        "feasible_integer_departures": 25572,
+        "integer_departures_examined": 43201,
+        "route": [
+          49,
+          56,
+          38,
+          40,
+          47
+        ]
+      },
+      {
+        "departure_time": 8087,
+        "duration": 1352,
+        "feasible_integer_departures": 18694,
+        "integer_departures_examined": 43201,
+        "route": [
+          50,
+          37,
+          31,
+          18
+        ]
+      },
+      {
+        "departure_time": 7862,
+        "duration": 2103,
+        "feasible_integer_departures": 9250,
+        "integer_departures_examined": 43201,
+        "route": [
+          59,
+          13,
+          34,
+          4,
+          28,
+          21
+        ]
+      }
+    ],
+    "used_arcs": 69
+  },
+  "instance": "n=60/Rifki-10.vrp.json",
+  "instance_sha256": "6839dbda54d775103f601498a74ca878b146f59adca16780f874cbabdd66a1af",
+  "objective": "Duration",
+  "satellite_base_commit": "58a0aecc4aef36f006ffe1386caaa8eac056aa0b",
+  "source_issue": "https://github.com/ANR-MAMUT/MAMUT-routing-TDVRPTW-Rifki2020/issues/2",
+  "store": {
+    "action": "replaced",
+    "stored_check": {
+      "error_message": "",
+      "num_routes": 9,
+      "route_evaluations": [
+        {
+          "departure_time": 9485.0,
+          "duration": 1436.0,
+          "feasible": true,
+          "route": [
+            4,
+            57,
+            21
+          ]
+        },
+        {
+          "departure_time": 12132.0,
+          "duration": 3077.0,
+          "feasible": true,
+          "route": [
+            9,
+            6,
+            55,
+            7,
+            43,
+            27,
+            8,
+            23
+          ]
+        },
+        {
+          "departure_time": 30617.0,
+          "duration": 1919.0,
+          "feasible": true,
+          "route": [
+            36,
+            20,
+            60,
+            38,
+            47
+          ]
+        },
+        {
+          "departure_time": 7920.0,
+          "duration": 701.0,
+          "feasible": true,
+          "route": [
+            37,
+            18
+          ]
+        },
+        {
+          "departure_time": 23819.0,
+          "duration": 3176.0,
+          "feasible": true,
+          "route": [
+            39,
+            24,
+            13,
+            32,
+            34,
+            29,
+            14,
+            1,
+            25,
+            5
+          ]
+        },
+        {
+          "departure_time": 17275.0,
+          "duration": 3011.0,
+          "feasible": true,
+          "route": [
+            41,
+            46,
+            35,
+            15,
+            42,
+            22,
+            2,
+            17,
+            40
+          ]
+        },
+        {
+          "departure_time": 24314.0,
+          "duration": 2337.0,
+          "feasible": true,
+          "route": [
+            49,
+            33,
+            26,
+            56,
+            51,
+            48,
+            11,
+            44
+          ]
+        },
+        {
+          "departure_time": 24589.0,
+          "duration": 2119.0,
+          "feasible": true,
+          "route": [
+            50,
+            31,
+            30,
+            3,
+            10,
+            52,
+            53,
+            16
+          ]
+        },
+        {
+          "departure_time": 28080.0,
+          "duration": 2355.0,
+          "feasible": true,
+          "route": [
+            59,
+            19,
+            58,
+            28,
+            45,
+            12,
+            54
+          ]
+        }
+      ],
+      "routing_cost": 20131.0,
+      "status": "valid"
+    },
+    "stored_sha256": "7f9bc2647c04f2f91dc334afbd0dad863d03e67e8ce70653de0c1c7e44d4b714"
+  },
+  "strict_improvement": true
+}
