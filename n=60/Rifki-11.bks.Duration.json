@@ -1,30 +1,31 @@
-
-  "instance_name": "Rifki-11",
-  "routes": [
-    [54,20,58,50,33,47,18],
-    [17,23,26,44,12,57],
-    [34,38,11,49,5],
-    [37,3,13,35,46,55,19,21,40,30,22],
-    [42,53,59,7,4,28,51,48],
-    [10,8,16,24,36,9],
-    [2,29],
-    [45,6,39,52,41,31,14],
-    [15,60,25,27,43,1,56,32]
-  ],
-  "metadata": {
-    "authors": "Farah Abdallah, Leen Qawas, Bana Mohammad",
-    "source": "Hybrid Genetic Search",
-    "route_departure_times": [
-      11508.0,
-      11991.0,
-      23713.0,
-      19179.0,
-      29216.0,
-      27195.0,
-      22769.0,
-      5422.0,
-      10080.0
-    ]
-  },
-  "objective_function": "Duration"
+{
+    "instance_name": "Rifki-11",
+    "routes": [
+        [2, 29],
+        [10, 8, 16, 24, 36, 9],
+        [15, 60, 25, 27, 43, 1, 56, 32],
+        [17, 23, 26, 44, 12, 57],
+        [34, 38, 11, 49, 5],
+        [37, 3, 13, 35, 46, 55, 19, 21, 40, 30, 22],
+        [42, 53, 59, 7, 4, 28, 51, 48],
+        [45, 6, 39, 52, 41, 31, 14],
+        [54, 20, 58, 50, 33, 47, 18]
+    ],
+    "cost": 18040.0,
+    "metadata": {
+        "method": "Hybrid Genetic Search (reported by contributors)",
+        "route_departure_times": [22769.0, 27195.0, 10080.0, 11991.0, 23713.0, 19179.0, 29216.0, 5422.0, 11508.0],
+        "route_durations": [589.0, 1717.0, 2430.0, 2113.0, 1694.0, 2902.0, 2003.0, 2697.0, 1895.0],
+        "source": "https://github.com/ANR-MAMUT/MAMUT-routing-TDVRPTW-Rifki2020/pull/3",
+        "submitted_solution_sha256": "b9f73415fdb74e405e3e45e97efffadc55b3f3a17de0367eb40a027cc265f24c",
+        "checker": "mamut-routing-lib 0.12.0",
+        "checker_commit": "3f8d07705d6d00bba1b94180833f82c005c2f5c6",
+        "verification_report": "contributions/2026-11-13-pr-3.json",
+        "checker_contract": "td-fold/2",
+        "authors": "Farah Abdallah, Leen Qawas, Bana Mohammad",
+        "validated_cost": 18040.0,
+        "validated_num_routes": 9,
+        "date": "2026-11-13T14:51:29"
+    },
+    "objective_function": "Duration"
 }
