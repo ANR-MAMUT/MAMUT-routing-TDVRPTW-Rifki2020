@@ -1,32 +1,30 @@
-{
-    "instance_name": "Rifki-11",
-    "routes": [
-        [2, 29],
-        [5, 23, 27, 30, 26, 44, 32, 10],
-        [8, 24, 36, 16, 9],
-        [15, 25, 31, 52, 39, 43],
-        [17, 53, 59, 4, 28, 51, 48],
-        [37, 3, 13, 35, 1, 22, 56, 57],
-        [42, 40, 46, 11, 45, 6, 55, 19, 21, 41, 7, 12],
-        [54, 20, 58, 50, 33, 47, 18],
-        [60, 34, 38, 49, 14]
-    ],
-    "cost": 18131.0,
-    "metadata": {
-        "authors": "Florian Rascoussier (0nyr)",
-        "source": "kayros 0.4.0.dev0 TD-ACO+ILS (seed=42, time_limit=300.0s)",
-        "validated_by": "mamut-routing-lib td Duration checker",
-        "date": "2026-07-08T03:23:00",
-        "route_durations": [589.0, 2700.0, 1429.0, 2072.0, 1755.0, 2607.0, 3323.0, 1895.0, 1761.0],
-        "route_departure_times": [22769.0, 21558.0, 27681.0, 4974.0, 29272.0, 10318.0, 24156.0, 11508.0, 16990.0],
-        "validated_cost": 18131.0,
-        "validated_num_routes": 9,
-        "repriced": {
-            "previous_cost": 18130.99999999999,
-            "checker": "mamut-routing-lib td checker, contract td-fold/2 (lib >= 0.12.0)",
-            "contract": "td-fold/2",
-            "date": "2026-09-24"
-        }
-    },
-    "objective_function": "Duration"
+
+  "instance_name": "Rifki-11",
+  "routes": [
+    [54,20,58,50,33,47,18],
+    [17,23,26,44,12,57],
+    [34,38,11,49,5],
+    [37,3,13,35,46,55,19,21,40,30,22],
+    [42,53,59,7,4,28,51,48],
+    [10,8,16,24,36,9],
+    [2,29],
+    [45,6,39,52,41,31,14],
+    [15,60,25,27,43,1,56,32]
+  ],
+  "metadata": {
+    "authors": "Farah Abdallah, Leen Qawas, Bana Mohammad",
+    "source": "Hybrid Genetic Search",
+    "route_departure_times": [
+      11508.0,
+      11991.0,
+      23713.0,
+      19179.0,
+      29216.0,
+      27195.0,
+      22769.0,
+      5422.0,
+      10080.0
+    ]
+  },
+  "objective_function": "Duration"
 }
